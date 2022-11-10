@@ -8,6 +8,10 @@ import { HelloComponent } from './hello.component';
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
   declarations: [ AppComponent, HelloComponent ],
+  schemas: [
+        CUSTOM_ELEMENTS_SCHEMA
+        
+  ]
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
